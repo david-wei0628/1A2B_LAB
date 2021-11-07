@@ -21,7 +21,7 @@ namespace _1A2B_LAB
         int ACount;
         int BCount;
 
-        void OutAnswer()
+        void OutputAnswer()
         {
             int[] x = new int[3];
             if (IsAllTextBoxHasValue())
@@ -129,7 +129,7 @@ namespace _1A2B_LAB
         private void Lockbt_Click(object sender, EventArgs e)
         {
 
-            OutAnswer();
+            OutputAnswer();
             Label_update();
             InitTextBoxContext();
         }
